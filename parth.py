@@ -84,8 +84,8 @@ class APIFetcher:
 
 # Example usage for Groq with voice input/output and wake word
 if __name__ == "__main__":
-    groq_api_key = "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"
-    groq_api_url = "https://api.groq.com/openai/v1/chat/completions"
+    groq_api_key = "Your_Groq_Api_here"
+    groq_api_url = "Groq_API_url_here"
     model = "llama3-8b-8192"  # select your own AI model
 
     fetcher = APIFetcher(groq_api_key, groq_api_url, model)
